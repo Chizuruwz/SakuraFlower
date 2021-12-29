@@ -3319,11 +3319,11 @@ function MIDN:Window(text)
 	return ServerHold
 end
 
-_G.Color = Color3.fromRGB(255, 13, 90) ---Color
+_G.Color = Color3.fromRGB(249, 233, 153) ---Color
 
-local MIDN = MIDN:Window("Test")
+local MIDN = MIDN:Window("SAKURAFLOWER BETA SCRIPT")
 
-local MIDNServer = MIDN:Server("Xerxes Hub",8287367376) --ใส่idรูปได้
+local MIDNServer = MIDN:Server("SakuraFlower Hub",7889960240) --ใส่idรูปได้
 
 local page1 = MIDNServer:Channel("Main")
 local page2 = MIDNServer:Channel("Main")
